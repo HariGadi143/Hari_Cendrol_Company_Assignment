@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-card {
+  background-color: gray;
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 15px;
+}
+.rounded-card {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 0px;
+  border-radius: 100%;
+}
+
+.paragraph {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.button {
+  background-color: aqua;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px;
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: aqua;
+  color: black;
+}
+.red {
+  background-color: red;
+  color: white;
+}
